@@ -1,0 +1,98 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*==============================================================
+ You can write your style here and overwrite our style
+ ============================================================== */
+
+//.btn-primary {
+//  background-color: $themecolor;
+//  border-color: darken($themecolor, 5%);
+//  @include box-shadow(0,0,10px);
+//  &:hover {
+//    background-color: darken($themecolor, 10%);
+//    border-color: lighten($themecolor, 5%);
+//    box-shadow: none;
+//  }
+//}
+
+
+.link_on-youtube {
+  position: relative;
+  display: block;
+  &:hover .icon_video-player {
+    background-color: #22abad;
+  }
+  .btn {
+    margin-top: -24px;
+    border-radius: 25px;
+    text-align: center;
+    //box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.55);
+    i {
+      font-size: 40px;
+      @include text-shadow(0,0,3px,rgba(0,0,0,0.75));
+    }
+  }
+  .icon {
+    margin-right: 9px;
+    font-size: 20px;
+    vertical-align: sub;
+  }
+}
+
+h3.video-title {
+  font-size: 14px;
+  a {
+    color: $themecolor;
+  }
+}
+
+.icon_video-player, .link_on-youtube .btn {
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  right: -50%;
+  display: block;
+  color: #fff;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.icon_video-player {
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  font-size: 22px;
+  border-radius: 50%;
+  &:before {
+    display: block;
+    padding-top: 22px;
+  }
+}
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row.row-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row.row-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.services__item{position:relative;margin-bottom:70px;}
+.services__item .ui-title-inner{margin-top:47px;}
+.services__item:hover .ui-title-inner{color:#f26529;}
