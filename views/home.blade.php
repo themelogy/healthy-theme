@@ -13,6 +13,7 @@
             <div class="container-fluid">
                 {!! Menu::render('home', \Themes\Healthy\Presenter\HomeMenuLinksPresenter::class) !!}
                 @blogLatestPosts(6, 'home-latest')
+                @videoLatest(6, 'latest')
             </div>
         </div>
     </div>
