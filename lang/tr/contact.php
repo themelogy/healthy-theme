@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'title'      => 'İletişim',
-    'contact us' => 'Bize ulaşın',
-    'address'    => 'Adres',
-    'phone'      => 'Telefon',
-    'email'      => 'E-Posta',
-    'mobile'     => 'Mobil',
-    'fax'        => 'Faks',
+    'title'      => 'Contact',
+    'contact us' => 'Contact us',
+    'address'    => 'Address',
+    'phone'      => 'Phone',
+    'email'      => 'Email',
+    'mobile'     => 'Mobile',
+    'fax'        => 'Fax',
     'form'       => [
-        'title' => 'İletişim Formu'
+        'title' => 'Contact Form'
     ],
     'messages' => [
-        'info'    => 'Aşağıda belirtilen harita ve adres bilgilerimizden veya mesaj formunu doldurarak bize ulaşabilirsiniz.',
-        'success' => 'Mesajınız için teşekkür ederiz. İncelenerek tarafınıza en kısa zamanda geri dönüş yapılacaktır.'
+        'info'    => 'You can contact us by using the map and address information below or by filling the message form.',
+        'success' => 'Thank you for your message. Your message will be reviewed and you will be returned as soon as possible.'
     ]
 ];

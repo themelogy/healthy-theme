@@ -3,6 +3,6 @@
 return [
   'meta' => [
       'title' => 'Buğra Buyrukçu TV',
-      'desc'  => 'Buğra Buyrukçu TV ile sağlık yaşam hakkındaki tüm videoları seyredin.'
+      'desc'  => 'Watch all videos about health life with Buğra Buyrukçu TV.'
   ]
 ];

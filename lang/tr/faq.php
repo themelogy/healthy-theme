@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title' => 'Sıkça Sorulan Sorular',
+    'title' => 'Frequently Asked Questions',
     'message' => [
-        'not found' => 'Sıkça sorulan soru bulunamadı.'
+        'not found' => 'Frequently Asked Questions not found.'
     ]
 ];

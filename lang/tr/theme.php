@@ -2,12 +2,12 @@
 
 return [
   'header' => [
-      'slogan' => '"Kişisel Sağılklı Yaşam Uzmanınız"'
+      'slogan' => '"Your Personal Health Specialist"'
   ],
   'footer' => [
-      'copyrights' => ':company © :date Tüm hakları saklıdır. <br/><small>Sitemizde yer alan içerikler bilgilendirme amaçlıdır. Teşhis ve tedavi amaçlı kullanılamaz. Teşhis ve tedavi için lütfen doktorunuza danışınız.</small>'
+      'copyrights' => ':company © :date All rights reserved. <br/><small>The contents of our site are for informational purposes. Can not be used for diagnostic and therapeutic purposes. Please consult your doctor for diagnosis and treatment.</small>'
   ],
   'buttons' => [
-      'click for more information' => 'Detaylı Bilgi'
+      'click for more information' => 'More Information'
   ]
 ];

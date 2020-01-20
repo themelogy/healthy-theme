@@ -2,7 +2,7 @@
 
 return [
   'title' => [
-      'portfolios' => 'Referanslar',
-      'meta_title' => 'Referanslar',
+      'portfolios' => 'References',
+      'meta_title' => 'References',
   ]
 ];

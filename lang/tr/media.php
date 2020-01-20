@@ -2,7 +2,7 @@
 
 return [
     'meta' => [
-        'title' => 'Video',
-        'desc'  => 'Video meta açıklama'
+        'title' => 'Media',
+        'desc'  => 'Dr. Buğra Buyrukçu Videos'
     ]
 ];

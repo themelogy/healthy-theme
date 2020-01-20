@@ -2,6 +2,6 @@
 
 return [
   'title' => [
-      'hr' => 'İnsan Kaynakları Formu'
+      'hr' => 'Career'
   ]
 ];

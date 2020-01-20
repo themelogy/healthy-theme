@@ -2,7 +2,7 @@
 
 return [
     'title'         => 'Haber ve Duyurular',
-    'description'   => 'Tüp bebek bilgi bankası',
+    'description'   => 'Dr. Buğra Buyrukçu sağlık yaşam ile ilgili son bilgilerini sizinle paylaşıyor.',
     'author posts'  => ':author yazıları',
     'recent posts'  => 'Son Haberler',
     'popular posts' => 'Popüler',

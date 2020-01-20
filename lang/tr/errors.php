@@ -2,11 +2,11 @@
 
 return [
   '404' => [
-      'title' => '404 - Aradığınız sayfayı bulamadık',
-      'desc'  => 'Aramış olduğunuz sayfayı bulamadık.'
+      'title' => '404 - We couldn\'t find the page you were looking for',
+      'desc'  => 'We couldn\'t find the page you were looking for.'
   ],
   '500' => [
-      'title' => '500 - Bir hata oluştu',
-      'desc'  => 'Bir hata oluştu. Bu konuda yönetici bilgilendirildi.'
+      'title' => '500 - An error occurred',
+      'desc'  => 'An error has occurred. The Administrator was informed about this.'
   ]
 ];
